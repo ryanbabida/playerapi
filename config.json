@@ -1,0 +1,12 @@
+{
+    "port": "8080",
+    "dbFilePath": "./app.db",
+    "inMemory": true,
+    "cbsApiUrl": "https://api.cbssports.com/fantasy/players/list?version=3.0&SPORT={{SPORT}}&response_format=JSON",
+    "sports": [
+        "football",
+        "basketball",
+        "baseball"
+    ],
+    "importBatchSize": 5000
+}
